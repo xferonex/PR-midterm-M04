@@ -7,9 +7,9 @@
 Creado: 20/10/2025
 Creado por: Fernando Arroyo Almódovar.
 
-//=====================================================
+/////////////////////////////////////////////////////////////////////
 // Propósito general / General purpose:
-//=====================================================
+/////////////////////////////////////////////////////////////////////
 //ES (español)
 Creacion de una pagina web para trabajo MidTerm centro de estudios La Salle.
 Se crea una página web sobre un centro comercial para adquirir los conocimientos y aptitudes principales para el desarrollo de páginas web.
@@ -23,12 +23,13 @@ A website about a shopping center is being created to acquire the key knowledge 
 
 The purpose and use of the website will be entirely educational. The GitHub repository will be made public so that it can be used by the entire community for learning.
 The corporate logo and images appearing on the website will be fully designed using AI to avoid violating the copyright of any user.
-//=====================================================
+
+/////////////////////////////////////////////////////////////////////
 // Comentario del creador:
-//=====================================================
+/////////////////////////////////////////////////////////////////////
 Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún error o desorganización del repositorio. Interaré hacerlo lo mejor posible. :)
 
-//=====================================================
+/////////////////////////////////////////////////////////////////////
 // Cronológia de cambios y acciones:
-//=====================================================
+/////////////////////////////////////////////////////////////////////
 20/10/2025 - Se añaden los archivos inciiales, con la estructuración incial de la página web.
