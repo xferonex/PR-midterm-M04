@@ -26,9 +26,12 @@ The corporate logo and images appearing on the website will be fully designed us
 
 **********  Comentario del creador: **********  
 
-Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún error o desorganización del repositorio. Interaré hacerlo lo mejor posible. :)
+Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún error o desorganización del repositorio. Interaré hacerlo lo mejor posible. :P
 
 
 **********  Cronológia de cambios y acciones: **********  
 
 20/10/2025 - Se añaden los archivos inciiales, con la estructuración incial de la página web.
+20/10/2025 - Se crea el codigo y estructura html.
+           - Se estructura la página pricipal.
+           - Se realiza maquetacion css.

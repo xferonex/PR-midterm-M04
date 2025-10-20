@@ -1,0 +1,94 @@
+
+body{
+    background-color: whitesmoke;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.header{
+
+    background-color: #F44336;
+    float: left;
+    height: 320px;
+    width: 100%;
+
+   
+}
+
+.nav-bar{
+
+    background-color: #F44336;
+    float: left;
+    height: 40px;
+    width: 100%;
+    margin-top: 0px;
+}
+li{
+    list-style: none;
+}
+nav .list{
+
+    float: left;
+    padding: 0;
+    margin: 0px;
+    margin-left: 5%;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    background-color:#F44336;
+}
+
+
+nav .list a{
+    display: block;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 20;
+    text-decoration-line: none;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+ .foot{
+    background-color: #212121;
+    float: left;
+    height: 120px;
+    width: 100%;
+    margin-top: 1px;
+}
+h1{
+    color: #212121;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+} 
+h2{
+    color: #212121;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+} 
+
+h3{
+    color: #212121; 
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+} 
+
+p{
+    color: #212121; 
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
