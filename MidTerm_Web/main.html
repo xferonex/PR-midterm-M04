@@ -2,6 +2,7 @@
 <html lang="es"> <!--Inicio del código-->
 <head>
      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHOPP CENTER: Compras, Moda y Servicios</title> <!--Título-->
     <link rel="icon" type="image/png" href="img/logo.png"/>
     <link rel="stylesheet" href="css/cssreset.css"/>
@@ -18,9 +19,6 @@
         <!--Menú navegación-->
         <nav>
         <div class="nav-bar">
-           <!-- <a class="boton" href="Tiendas/Tiendas.html">Tiendas</a>-->
-           <!-- <a class="boton" href="Restauracion/Restauracion.html">Restauración</a>-->
-           <!-- <a class="boton" href="Entretenimiento/Entretenimiento.html">Entretenimiento</a>-->
             <ul class="list">
                 <li>
                     <a href="Tiendas/Tiendas.html">Tiendas</a>
@@ -35,29 +33,71 @@
         </div>
         </nav>
         <!--TITULO PRINCIPAL-->
-        <section>
-        <h1>TU CENTRO COMERCIAL!</h1>
-        <p>¿Buscas un planazo que hacer? 💥 ¡Lo encontraras en SHOPP CENTER! Nuestra zona de restauración y cine están abiertos los 365 días del año para que nunca te quedes sin plan. 🥰
-        📲 Atento a nuestras redes sociales para cualquier otra actualización @shoppcenter</p> <br>
-        </section>
+            <section class="border-line-1">
+                <h1>TU CENTRO COMERCIAL!</h1>
+                <p >¿Buscas un planazo que hacer? 💥 ¡Lo encontraras en SHOPP CENTER! Nuestra zona de restauración y cine están abiertos los 365 días del año para que nunca te quedes sin plan. 🥰
+                    📲 Atento a nuestras redes sociales para cualquier otra actualización @shoppcenter</p> <br>
+            </section>
         
         <!--NOTICIASL-->
-        <section>
-        <h2>NOTICAS</h2>
-        <p>No te pierdas nada, descubre todas las noticias en el siguiente enlace o en nuestras redes sociales</p>
-        
-        <!--OFERTAS-->
+        <section class="border-line-2">
+            <h2>NOTICIAS</h2>
+                <p>No te pierdas nada, descubre todas las noticias en el siguiente enlace o en nuestras redes sociales</p>
         </section>
-        <h2>¿QUIERES DISFRUTAR DE OFERTAS EXCLUSIVAS?</h2>
-        <P>Hacte socio del club SHOPP CENTER y disfruta de ofertas exclusivas para miembros:</P>
+
+        <!--OFERTAS-->
+        <section class="border-line-2">
+            <h2>¿QUIERES DISFRUTAR DE OFERTAS EXCLUSIVAS?</h2>
+                <P>🎁 Hazte socio del club SHOPP CENTER y disfruta de ofertas exclusivas para miembros: </P>
+                <P>🎈 Suma puntos con tus compras o consumición en nuestros establecimientos</P>
+                <P>🎊 ¡¡ Participa en nuestros sorteos !! </P>
+                <P>🥳 Celebra tu cumpleaños con nosotros, tu peque tendra una fiesta inolvidable </P>
+        </section>
         
         <!--QUE HACER-->
-        <section>
+        <section class="border-line-2">
          <h2>¿QUE HACER?</h2>
+            <div>
+                <table class="table-a1"><!--Creación de tabla-->
+                    <caption></caption>
+                    <tr class="tr-a1"><!--Fila 1-->
+                        <td><img  src="img/SalaCine.png" alt="Sala-De-Cine"  ></td> <!--Columna 1-->
+                        <td><img  src="img/Shopping.png" alt="Shopping" ></td> <!--Columna 2--> 
+                        <td><img  src="img/Restaurante.png" alt="Terraceo" ></td> <!--Columna 3--> 
+                        <td><img  src="img/parque.png" alt="Actividades" ></td> <!--Columna 4--> 
+                    </tr>
+                    <tr class="tr-a2"><!--Fila 2-->
+                        <td><a href="Tiendas/Cine.html">Cine</a></td> <!--Columna 1-->
+                        <td><a href="Tiendas/Tiendas.html">Shopping</a></td> <!--Columna 2-->
+                        <td><a href="Restauracion/Restauracion.html">Terraceo</a></td> <!--Columna 3--> 
+                        <td><a href="Entretenimiento/Entretenimiento.html">Actividades</a></td> <!--Columna 4-->                        
+                    </tr>
+                </table>
+            </div>
 
         </section>
-        <!--Footero-->
-        <div class="foot"></div>
-        
+        <!--Footer-->
+        <footer>
+            <div class="footer-data">
+                <p>Fernando Arroyo Almodóvar - ASIR</p>
+                <table><!--Creación de tabla-->
+                    <caption></caption>
+                    <tr><!--Fila 1-->
+                        <td>Paseo piruleta, 2</td> <!--Columna 1-->
+                        <td class="td-footer-fata" rowspan="4"><img  src="img/logo.png" alt="logo" width="10%" height="10%"></td> <!--Columna 2-->
+                    </tr>
+                    <tr><!--Fila 2-->
+                        <td>Barcelona</td> <!--Columna 1-->
+                    </tr>
+                    <tr><!--Fila 3-->
+                        <td>C.P: 80253</td> <!--Columna 1-->
+                    </tr>
+                    <tr><!--Fila 4-->
+                        <td>93225877756</td> <!--Columna 1-->
+                    </tr>
+                </table>
+
+            </div>
+        </footer>       
     </body>
 </html> 

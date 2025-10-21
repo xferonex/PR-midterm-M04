@@ -32,6 +32,13 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
 **********  Cronológia de cambios y acciones: **********  
 
 20/10/2025 - Se añaden los archivos inciiales, con la estructuración incial de la página web.
+
 20/10/2025 - Se crea el codigo y estructura html.
            - Se estructura la página pricipal.
            - Se realiza maquetacion css.
+
+21/10/2025 - Se realiza menú de navegacion dinámico.
+           - Se rellenan los párrafos.
+           - Se realiza maquetacion del footer.
+           - Se realiza maquetacion de sub-menu de navegacion seccion "Que hacer?".
+           - Se modifican los estilos css para hacer mas atractiva la visuañización.
