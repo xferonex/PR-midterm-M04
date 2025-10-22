@@ -11,11 +11,12 @@ body{
     background-color: #F44336;
     float: left;
     height: 320px;
-    width: 100%;  
+    width: 100%;
+    margin-right: 0.5%; 
+    padding-right: 0.5%;  
 }
-p{ 
-    padding: 5px;
-}
+
+
 .nav-bar{
 
     background-color: #F44336;
@@ -144,6 +145,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    padding: 5px;
 }
 
 .border-line-1{
