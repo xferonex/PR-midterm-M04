@@ -42,3 +42,11 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Se realiza maquetacion del footer.
            - Se realiza maquetacion de sub-menu de navegacion seccion "Que hacer?".
            - Se modifican los estilos css para hacer mas atractiva la visuañización.
+
+22/10/2025 - Se añade mas contenido a las páginas.
+           - Se modifica la hoja de estilos css.
+           - Se finaliza página de horarios.
+           - Se finaliza página "como llegar".
+           - Se finaliza página cine.
+           - Se modifica página de entretenimiento.
+           - Se modifica página de shopping

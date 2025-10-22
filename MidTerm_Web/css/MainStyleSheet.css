@@ -123,6 +123,17 @@ h3{
     color: #212121; 
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5%;
+    margin-top: 0.0%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+} 
+h4{
+    color: #212121; 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5%;
+    margin-top: 0.0%;
     margin-left: 0.5%;
     margin-right: 0.5%;
 } 
@@ -158,16 +169,16 @@ p{
 padding: 20px;
 }
 .tr-a1 img {
-  max-width: 100%;   /* ancho máximo */
-  max-height: 100%;  /* alto máximo */
+  max-width: 100%;   
+  max-height: 100%;
 }
  .tr-a2 {
     text-align: center;
     vertical-align: middle;
 }
 .tr-a2 td {
-    color:#ffffff;
     background-color: #F44336;
+    color:#ffffff;
     padding: 5px;
     border-radius: 10px;
     border: none;
@@ -188,7 +199,7 @@ padding: 20px;
     padding: 5px;
     border: none;
     text-decoration-line: none;
-
+display: block;
 }
 .tr-a2 td a:hover{
     color:#ffffff;
@@ -205,4 +216,12 @@ padding: 20px;
 .tr-a2 td a:visited{
     color:#ffffff;
     background-color: #F44336;
+}
+#list-recomend{
+    color: #212121; 
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1% 0.5% 0.5% 0.5%;
+    padding: 0.5% 0.5% 1% 1%;
+    box-shadow: 0 0 20px #FFEB3B;  
 }
