@@ -50,3 +50,4 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Se finaliza página cine.
            - Se modifica página de entretenimiento.
            - Se modifica página de shopping
+           - Organizacion hoja de estilos

@@ -8,17 +8,14 @@
     <link rel="stylesheet" href="css/cssreset.css"/>
     <link rel="stylesheet" href="css/MainStyleSheet.css"/>
 </head>
-
     <body>
         <!--Cabecera: Imagen + logo-->
-        <div class="header">
+        <header class="header">
             <img  src="img/logo.png" alt="logo" width="24%" height="100%">
             <img  src="img/market.png" alt="Centro-Comercial" width="75%" height="100%">
-        </div>
-
+        </header>  
         <!--Menú navegación-->
-        <nav>
-        <div class="nav-bar">
+        <nav class="nav-bar">
             <ul class="list">
                 <li>
                     <a href="Tiendas/Tiendas.html">Tiendas</a>
@@ -30,7 +27,6 @@
                     <a href="Entretenimiento/Entretenimiento.html">Entretenimiento</a>
                 </li>
             </ul>
-        </div>
         </nav>
         <!--TITULO PRINCIPAL-->
             <section class="border-line-1">
@@ -44,14 +40,12 @@
                         <td><a href="Mapa.html">¿Cómo llegar?</a></td> <!--Columna 1-->
                     </tr>            
                 </table>
-            </section>
-        
+            </section> 
         <!--NOTICIAS-->
         <section class="border-line-2">
             <h2>NOTICIAS</h2>
                 <p>No te pierdas nada, descubre todas las noticias en el siguiente enlace o en nuestras redes sociales</p>
         </section>
-
         <!--OFERTAS-->
         <section class="border-line-2">
             <h2>¿QUIERES DISFRUTAR DE OFERTAS EXCLUSIVAS?</h2>
@@ -60,7 +54,6 @@
                 <P>🎊 ¡¡ Participa en nuestros sorteos !! </P>
                 <P>🥳 Celebra tu cumpleaños con nosotros, tu peque tendra una fiesta inolvidable </P>
         </section>
-        
         <!--QUE HACER-->
         <section class="border-line-2">
          <h2>¿QUE HACER?</h2>
@@ -68,10 +61,10 @@
                 <table class="table-a1"><!--Creación de tabla-->
                     <caption></caption>
                     <tr class="tr-a1"><!--Fila 1-->
-                        <td><img  src="img/SalaCine.png" alt="Sala-De-Cine"  ></td> <!--Columna 1-->
-                        <td><img  src="img/Shopping.png" alt="Shopping" ></td> <!--Columna 2--> 
-                        <td><img  src="img/Restaurante.png" alt="Terraceo" ></td> <!--Columna 3--> 
-                        <td><img  src="img/parque.png" alt="Actividades" ></td> <!--Columna 4--> 
+                        <td><div class="img-container"><img class="img-animed" src="img/SalaCine.png" alt="Cine"><div class="img-overlay"><div class="img-text"><a href="Entretenimiento/Cine.html">¡ Go To !</a></div></div></div></td> <!--Columna 1-->
+                        <td><div class="img-container"><img class="img-animed" src="img/Shopping.png" alt="Shopping"><div class="img-overlay"><div class="img-text"><a href="Tiendas/Tiendas.html">¡ Go TO !</a></div></div></div></td> <!--Columna 2--> 
+                        <td><div class="img-container"><img class="img-animed" src="img/Restaurante.png" alt="Terraceo"><div class="img-overlay"><div class="img-text"><a href="Restauracion/Restauracion.html">¡ Go TO !</a></div></div></div></td> <!--Columna 3--> 
+                        <td><div class="img-container"><img class="img-animed" src="img/parque.png" alt="Actividades"><div class="img-overlay"><div class="img-text"><a href="Entretenimiento/Entretenimiento.html">¡ Go TO !</a></div></div></div></td> <!--Columna 4--> 
                     </tr>
                     <tr class="tr-a2"><!--Fila 2-->
                         <td><a href="Entretenimiento/Cine.html">Cine</a></td> <!--Columna 1-->
@@ -90,7 +83,7 @@
                     <caption></caption>
                     <tr><!--Fila 1-->
                         <td>Paseo piruleta, 2</td> <!--Columna 1-->
-                        <td class="td-footer-fata" rowspan="4"><img  src="img/logo.png" alt="logo" width="10%" height="10%"></td> <!--Columna 2-->
+                        <td class="td-footer-data-img" rowspan="4"><img  src="img/logo.png" alt="logo" width="10%" height="10%"></td> <!--Columna 2-->
                     </tr>
                     <tr><!--Fila 2-->
                         <td>Barcelona</td> <!--Columna 1-->
@@ -102,7 +95,6 @@
                         <td>93225877756</td> <!--Columna 1-->
                     </tr>
                 </table>
-
             </div>
         </footer>       
     </body>
