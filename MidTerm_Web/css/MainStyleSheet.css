@@ -27,6 +27,13 @@ body{
     margin-right: 0.5%; 
     padding-right: 0.5%;  
 }
+nav{
+    background-color: #F44336;
+    float: left;
+    height: 44px;
+    width: 100%;
+    margin-top: 0px;
+}
 li{
     list-style: none;
 }
@@ -81,14 +88,6 @@ p{
 /*===============================================*/
 /*   Contenedores                                */
 /*===============================================*/
-.nav-bar{
-
-    background-color: #F44336;
-    float: left;
-    height: 40px;
-    width: 100%;
-    margin-top: 0px;
-}
 nav .list{
     float: left;
     padding: 0;
@@ -332,3 +331,59 @@ display: block;
 /*===============================================*/
 /*   Media querys                                */
 /*===============================================*/
+/* === Estilos base (Desktop por defecto) === */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* === Smartphones (hasta 480px) === */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .grid {
+    display: block;
+  }
+}
+
+/* === Tablets verticales (481px a 768px) === */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Tablets horizontales (769px a 1024px) === */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* === Escritorios grandes (más de 1024px) === */
+@media (min-width: 1025px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
