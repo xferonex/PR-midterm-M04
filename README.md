@@ -51,3 +51,15 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Se modifica página de entretenimiento.
            - Se modifica página de shopping
            - Organizacion hoja de estilos
+
+
+26/10/2025 - modificaciones en menú navegación.
+           - Modificaciones en footer.
+           - Mejoras stilos css.
+           - Validacion de todos los códigos HTML.
+           - Validación código css.
+
+
+
+**********   LINK GITPAGES **********  
+https://xferonex.github.io/PR-midterm-M04/

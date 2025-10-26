@@ -23,8 +23,6 @@ header{
     background-color: #F44336;
     height: 320px;
     width: 100%;
-    max-width: auto;
-    max-height: auto;
     margin-right: 0.5%; 
     padding-right: 0.5%;
     border: 2px solid #000;
@@ -101,7 +99,6 @@ p{
 /*   Contenedores                                */
 /*===============================================*/
 nav .list{
-    float: center;
     padding: 0px 0px 0px 0px;
     margin: 0px;
     margin-left: auto;
@@ -120,7 +117,7 @@ nav .list a{
     text-transform: uppercase;
     padding: 10px 0px 10px 0px;
     margin-right: 10px;
-    font-size: 20;
+    font-size: 20px;
     text-decoration-line: none;
     font-weight:normal;
     color: #ffffff;
@@ -154,7 +151,6 @@ footer .footer-data table{
   height: auto;
   max-width: 100%;
   max-height: 100%;
-  float: center;
   object-fit: contain;
   }
 
@@ -229,7 +225,6 @@ footer .footer-data table{
 /*-----------------------------------------------*/
 
 .block-1{
-position: center;
   justify-content: center; 
   align-items: center;
 }
@@ -319,7 +314,6 @@ position: center;
     max-width: 100%;
     max-height: 100%;
     object-fit:cover;
-    float: center;
     object-fit: contain;
 }
 
@@ -381,7 +375,6 @@ position: center;
 
 .border-line-4 img{
   max-width: 50%;
-  max-height: auto;
   width: auto;
   height: auto;
 }
