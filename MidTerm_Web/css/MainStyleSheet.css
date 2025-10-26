@@ -106,10 +106,9 @@ p{
 /*   Contenedores                                */
 /*===============================================*/
 nav .list{
+    margin: auto;
     padding: 0px 0px 0px 0px;
     margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
     width: auto;
     height: auto;
     display: flex;
