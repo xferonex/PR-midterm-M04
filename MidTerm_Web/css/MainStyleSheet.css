@@ -37,7 +37,7 @@ header{
 nav{
     background-color: #F44336;
     float: left;
-    height: 44px;
+    height: auto;
     width: 100%;
     margin-top: 0px;
     border: 2px solid #000;
@@ -109,31 +109,35 @@ p{
   object-fit: contain;
   }
 
+
 nav .list{
-    float: left;
-    padding: 0;
+    float: center;
+    padding: 0px 0px 0px 0px;
     margin: 0px;
-    margin-left: 5%;
-    width: 60%;
-    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     list-style-type: none;
     background-color:#F44336;
+    gap: 20px;
 }
 nav .list a{
     display: block;
     text-transform: uppercase;
-    padding: 9px;
+    padding: 10px 0px 10px 0px;
+    margin-right: 10px;
     font-size: 20;
     text-decoration-line: none;
-    font-weight: bold;
+    font-weight:normal;
     color: #ffffff;
     text-decoration: none; 
     border: none;
-    border-bottom: 4px solid #F44336; 
-}
+    border-bottom: 4px solid #F44336;
+} 
 nav .list a:hover{
 
     border: none;
