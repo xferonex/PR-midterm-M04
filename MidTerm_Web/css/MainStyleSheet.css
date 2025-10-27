@@ -47,8 +47,6 @@ nav{
     border: 2px solid #000;
     border-bottom: none;
     border-top: none;
-    display: grid;
-    overflow: auto;
 }
 
 li{
@@ -107,7 +105,7 @@ p{
 /*   Contenedores                                */
 /*===============================================*/
 nav .list{
-    margin: auto;
+
     padding: 0px 0px 0px 0px;
     margin: 0px;
     width: auto;
@@ -115,18 +113,16 @@ nav .list{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    list-style-type: none;
     background-color:#F44336;
-    gap: 2%;
-
+    gap: 2%; 
 }
+
 nav .list a{
     display: block;
     text-transform: uppercase;
     padding: 10px 0px 10px 0px;
     margin-right: 10px;
     font-size: 20px;
-    text-decoration-line: none;
     font-weight:normal;
     color: #ffffff;
     text-decoration: none; 
@@ -409,7 +405,7 @@ footer .footer-data table{
     padding: 10px;
   }
 
-  .menu {
+  .list {
     flex-direction: column;
     gap: 10px;
   }
@@ -426,7 +422,7 @@ footer .footer-data table{
     padding: 15px;
   }
 
-  .menu {
+  .list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
@@ -437,16 +433,5 @@ footer .footer-data table{
   }
 }
 
-/* === Tablets horizontales (769px a 1024px) === */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-/* === Escritorios grandes (más de 1024px) === */
-@media (min-width: 1025px) {
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
+
