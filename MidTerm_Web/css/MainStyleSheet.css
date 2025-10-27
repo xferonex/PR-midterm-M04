@@ -48,6 +48,7 @@ nav{
     border: 2px solid #000;
     border-bottom: none;
     border-top: none;
+    justify-content: center;
 }
 
 li{
@@ -111,7 +112,7 @@ nav .list{
     margin: 0px;
     width: auto;
     height: auto;
-    display: flex;
+    display:flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
