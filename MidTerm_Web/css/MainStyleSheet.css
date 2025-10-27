@@ -21,7 +21,6 @@ body{
     font-size: 16px;
     background-color: #f5f5f5;
     padding: 20px;
-
 }
 
 header{
@@ -48,7 +47,8 @@ nav{
     border: 2px solid #000;
     border-bottom: none;
     border-top: none;
-    justify-content: center;
+    display: grid;
+    overflow: scroll;
 }
 
 li{
@@ -117,7 +117,8 @@ nav .list{
     align-items: center;
     list-style-type: none;
     background-color:#F44336;
-    gap: 20px;
+    gap: 2%;
+
 }
 nav .list a{
     display: block;
