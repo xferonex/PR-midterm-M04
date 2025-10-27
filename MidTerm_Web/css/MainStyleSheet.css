@@ -17,7 +17,7 @@ body{
     margin-bottom: 0.5%;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: #f5f5f5;
     padding: 20px;
@@ -48,7 +48,7 @@ nav{
     border-bottom: none;
     border-top: none;
     display: grid;
-    overflow: scroll;
+    overflow: auto;
 }
 
 li{
