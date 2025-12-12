@@ -59,6 +59,11 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Validacion de todos los códigos HTML.
            - Validación código css.
 
+12/12/2025 - Mejoras y correcciones según comentarios tras evaluación.
+                -Se añade el uso de iconografía mediante svg en el footer.
+                -Se corrige el color del logo al utilizado en la paleta de colores.
+                -Se corrige el uso de la propiedad font-family, se utiliza solo en la etiqueta body.
+                -Se elimina el uso de grid-template-columns que carecia de utilidad.
 
 
 **********   LINK GITPAGES **********  
