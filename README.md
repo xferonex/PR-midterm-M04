@@ -69,9 +69,15 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Modificar fichero css con estilos para el formulario.
            - Crear script de formulario para visualizar mensaje de confirmación al realizar un submit en el formulario.
            - Modificar script para que el mensaje de confirmación desapareca pasados 3 segundos.
-           - Crear script para camiar el color de fondo de "Noticias" y "Ofertas".
+
+           - Crear script para cambiar el color de fondo de "Noticias" y "Ofertas".
            - Integrar boton para alternar entre colores.
            - Crear estilos para nuebos elementos añadidos.
+
+           - Modificar footer añadiendo iconografia de socialmedia.
+           - Se modifica hoja de estilos css.
+           - Se crea scrip para que abrir los links de socialmedia e informar por consola.
+           - Se carga en elemento header el script goto mediante el direccionamiento correspondiente en cada página.
 
            
 **********   LINK GITPAGES **********  

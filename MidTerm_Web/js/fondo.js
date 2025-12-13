@@ -1,5 +1,5 @@
 
-console.log("Script cargado correctamente"); //Mesnsaje para comoprobar que el script se ha cargado correctamente.
+console.log("Script fondo cargado correctamente"); //Mensaje para comoprobar que el script se ha cargado correctamente.
 
 let var1 = 0; //Variable contador.
 const in1 = document.getElementById("whiteButton"); //Asignamos el elemento por id a la variable costante in1
