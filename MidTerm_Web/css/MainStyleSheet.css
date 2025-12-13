@@ -396,6 +396,30 @@ footer .footer-data table{
   height: auto;
 }
 /*===============================================*/
+/*   Componentes relativos a botones             */
+/*===============================================*/
+.standardButton {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: #F44336;
+  color:#ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+.standardButtonss:hover {
+    margin-top: 0px;
+    color:#ffffff;
+    background-color: #F44336;
+    padding: 0px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 4px solid #FFEB3B;
+}
+/*===============================================*/
 /*   Componentes con ID                          */
 /*===============================================*/
 #list-recomend{
@@ -455,7 +479,7 @@ footer .footer-data table{
   padding: 10px;
   width: 100%;
   background-color: #a4a4a4;
-  color: #fff;
+   color:#ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -484,7 +508,7 @@ footer .footer-data table{
   padding: 10px;
   width: 100%;
   background-color: #212121;
-  color: #fff;
+   color:#ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;

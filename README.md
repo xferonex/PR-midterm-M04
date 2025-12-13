@@ -69,6 +69,10 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Modificar fichero css con estilos para el formulario.
            - Crear script de formulario para visualizar mensaje de confirmación al realizar un submit en el formulario.
            - Modificar script para que el mensaje de confirmación desapareca pasados 3 segundos.
+           - Crear script para camiar el color de fondo de "Noticias" y "Ofertas".
+           - Integrar boton para alternar entre colores.
+           - Crear estilos para nuebos elementos añadidos.
 
+           
 **********   LINK GITPAGES **********  
 https://xferonex.github.io/PR-midterm-M04/
