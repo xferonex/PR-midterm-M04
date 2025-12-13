@@ -9,8 +9,6 @@ const gotoIn3 = document.querySelector(".gotoInstagram"); //Cargamos en la varia
 gotoIn1.addEventListener("click", () => {
     window.open("https://es.linkedin.com/in/fernando-arroyo-almodovar-8641b453");
     console.log("Link al perfil del desarrollador en LinkedIn abierto: "+ "https://es.linkedin.com/in/fernando-arroyo-almodovar-8641b453"); //Mostrar mensaje en consola
-    alert("Link al perfil del desarrollador en LinkedIn abierto: "+ "https://es.linkedin.com/in/fernando-arroyo-almodovar-8641b453"); //Mostrar mensaje en consola
-
 });
 
 
