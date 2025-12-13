@@ -14,9 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     objMensaje.textContent = "Registro realizado con éxito"; 
     objMensaje.style.backgroundColor = "#2bc72dff";
     objMensaje.style.color = "white";
-    objMensaje.style.padding = "10px";
-    objMensaje.style.marginTop = "10px";
+    objMensaje.style.padding = "5px";
+    objMensaje.style.marginTop = "5px";
     objMensaje.style.borderRadius = "4px";
+    objFormulario.style.fontSize = "12px";
     console.log("Mensaje mostrado");
 
     // Modificamos los atributos del id contenido en la variable objMensaje. Ocultandolo pasados 3s (3000ms)
