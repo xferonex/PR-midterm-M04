@@ -407,6 +407,99 @@ footer .footer-data table{
     box-shadow: 0 0 20px #FFEB3B;  
 }
 
+
+/*===============================================*/
+/*   componentes de formulario de registro       */
+/*===============================================*/
+#formularioRegistro {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #ddd;
+  border-radius: 8px;
+    font-size: 18px;
+}
+
+#formularioRegistro label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#formularioRegistro input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #FFEB3B;
+  font-size: 16px;
+
+}
+
+#formularioRegistro select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #FFEB3B;
+  font-size: 16px;
+
+}
+
+
+#formularioRegistro button[type="reset"] {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #a4a4a4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-bottom: 4px solid #a4a4a4;
+}
+
+#formularioRegistro button:hover[type="reset"] {
+    margin-top: 15px;
+    color:#ffffff;
+    background-color: #a4a4a4;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 4px solid #FFEB3B;
+}
+
+#provincia option {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+#confirmar {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #212121;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-bottom: 4px solid #212121;
+}
+#confirmar:hover {
+    margin-top: 15px;
+    color:#ffffff;
+    background-color: #212121;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 4px solid #FFEB3B;
+}
+
 /*===============================================*/
 /*   Media querys                                */
 /*===============================================*/

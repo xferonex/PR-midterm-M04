@@ -65,6 +65,10 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
                 -Se corrige el uso de la propiedad font-family, se utiliza solo en la etiqueta body.
                 -Se elimina el uso de grid-template-columns que carecia de utilidad.
 
+13/12/2025 - Creación de formulario y fenir su estilo
+           - Modificar fichero css con estilos para el formulario.
+           - Crear script de formulario para visualizar mensaje de confirmación al realizar un submit en el formulario.
+           - Modificar script para que el mensaje de confirmación desapareca pasados 3 segundos.
 
 **********   LINK GITPAGES **********  
 https://xferonex.github.io/PR-midterm-M04/
