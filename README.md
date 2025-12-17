@@ -79,6 +79,8 @@ Este es mi primer repositorio en GitHub, ruego me perdoneis si existe algún err
            - Se crea scrip para que abrir los links de socialmedia e informar por consola.
            - Se carga en elemento header el script goto mediante el direccionamiento correspondiente en cada página.
 
+17/12/2025 - Corregir errata en botón "CAMBIA COLOR".
+           - Ampliar comentarios.
            
 **********   LINK GITPAGES **********  
 https://xferonex.github.io/PR-midterm-M04/
